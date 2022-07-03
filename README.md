@@ -5,7 +5,6 @@
 - Botun normal bir insandan tek farkı, 7/24 aktif bir şekilde her `N` dakikada bir (varsayılan: 30dk) randevu almaya çalışmasıdır.
 - Tüm işlemler Telegram veya Konsola kayıt edilmektedir.
 
-
 ## Kullanım
 
 - Botu kullanmak için önerilen Node.JS sürümü `>14.0`
@@ -75,3 +74,6 @@
 |35 | Plastik, Rekonstrüktif ve Estetik Cerrahi (Ana Brans)( Cebeci )|
 |36 | Psikiyatri( Cebeci )|
 |37 | Üroloji -> Çocuk Ürolojisi( Cebeci )|
+
+#### Dip Not
+- Bot dolayısıyla Ankara Üniversitesi web randevu sisteminden engellenen, randevusu silinen veya herhangi bir şeyle karşılaşan kullanıcılardan sorumlu değilimdir. Herkes kendi öz iradesiyle kullanmaktadır.

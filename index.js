@@ -105,7 +105,8 @@ const { tmpdir } = require('os');
             if (el.style.visibility == "visible") {
                 // RANDEVU YOK
                 try {
-                    return rk(0)
+                    rk(0)
+                    return 0
                 } catch { }
             } else {
                 // RANDEVU VAR
@@ -133,10 +134,10 @@ const { tmpdir } = require('os');
                 }
                 return { mesaj: x, secilen: random_date.innerHTML };
             }, config.randevu_bulununca_kapat)
-            await page.click("#TarihSecmeReferansID_xd")
             await kayitTut(randevu_tarihi.mesaj + "\n" + "[ ! ] Rastgele bir şekilde seçilen randevu tarihi: " + randevu_tarihi.secilen, 1);
-            await page.waitForTimeout(config.islem_araligi_sn * 1000);
             if (!config.randevu_bulununca_kapat) {
+                await page.click("#TarihSecmeReferansID_xd")
+                await page.waitForTimeout(config.islem_araligi_sn * 1000);
                 /* Randevu Saati Seçme */
                 await page.click("label#newAppointmentForm\\:appointmentTime_label")
                 await kayitTut("[ ! ] Randevu saatleri sıralanıyor!", config.debug)
@@ -192,6 +193,10 @@ const { tmpdir } = require('os');
                 await kayitTut("[ ! ] Bot kapanıyor!", 1)
                 await browser.close();
                 await process.exit(0);
+            } else {
+                await kayitTut("[ ! ] Bot kapanıyor!", 1)
+                await browser.close();
+                await process.exit(0);
             }
         }
     }
@@ -208,13 +213,7 @@ const { tmpdir } = require('os');
             await setTimeout(() => { randevuDene() }, config.deneme_araligi_dk * 60 * 1000);
         } else if (durum == 1) {
             await kayitTut("[ ! ] RANDEVU BULUNDU!", 1)
-            if (config.randevu_bulununca_kapat) {
-                await kayitTut("[ ! ] Bot kapanıyor!", config.debug)
-                await global.browser.close();
-                process.exit(0);
-            } else {
-                return 1
-            }
+            return 1
         } else {
             await kayitTut("[ ! ] ÜZGÜNÜM RANDEVU ALMAYA ÇALIŞIRKEN HATA MEYDANA GELDİ, " + config.deneme_araligi_dk + " dakika sonra tekrar deneyeceğim!", 1)
             await global.browser.close();

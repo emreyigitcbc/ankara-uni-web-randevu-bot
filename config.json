@@ -1,0 +1,12 @@
+{
+	"tc": "TC Kimlik numaranızı buraya yazınız",
+	"sifre": "Şifrenizi buraya yazınız",
+	"istenilen_bolum": 0,
+	"deneme_araligi_dk": 30,
+	"islem_araligi_sn": 2.5,
+	"randevu_bulununca_kapat": true,
+	"telegram_token": "Telegram botunuzun tokenini buraya yazınız",
+	"telegram_sohbet_id": 0,
+	"debug": 0,
+    "bolumler": ["Algoloji -> Anesteziyoloji ve Reanimasyon(  Ibni Sina Hastanesi )", "Beyin ve Sinir Cerrahisi(  Ibni Sina Hastanesi )", "Çocuk Cerrahisi -> Çocuk Ürolojisi( Cebeci )", "Çocuk Cerrahisi (Ana Brans)( Cebeci )", "Çocuk Sagligi ve Hastaliklari (Ana Brans)( Cebeci )", "Dermatoloji(  Ibni Sina Hastanesi )", "El Cerrahisi(Ortopedi ve Travmatoloji)(  Ibni Sina Hastanesi )", "Enfeksiyon Hastaliklari(  Ibni Sina Hastanesi )", "Fiziksel Tip ve Rehabilitasyon -> Romatoloji(Fizik Tedavi)(  Ibni Sina Hastanesi )", "Fiziksel Tip ve Rehabilitasyon (Ana Brans)(  Ibni Sina Hastanesi )", "Fiziksel Tip ve Rehabilitasyon (Ana Brans)( Cebeci )", "Genel Cerrahi (Ana Brans)(  Ibni Sina Hastanesi )", "Genel Cerrahi (Ana Brans)(  Ibni Sina Hastanesi )", "Genel Cerrahi (Ana Brans)( Cebeci )", "Gögüs Cerrahisi(  Ibni Sina Hastanesi )", "Gögüs Hastaliklari -> Alerjik Gögüs Hastaliklari( Cebeci )", "Gögüs Hastaliklari (Ana Brans)( Cebeci )", "Göz Hastaliklari( Cebeci )", "Iç Hastaliklari -> Endokrinoloji ve Metabolizma Hastaliklari(  Ibni Sina Hastanesi )", "Iç Hastaliklari -> Gastroenteroloji(  Ibni Sina Hastanesi )", "Iç Hastaliklari -> Gastroenteroloji( Cebeci )", "Iç Hastaliklari -> Geriatri(  Ibni Sina Hastanesi )", "Iç Hastaliklari -> Hematoloji( Cebeci )", "Iç Hastaliklari -> Immünoloji ve Alerji Hastalıkları(  Ibni Sina Hastanesi )", "Iç Hastaliklari -> Nefroloji(  Ibni Sina Hastanesi )", "Iç Hastaliklari -> Romatoloji(  Ibni Sina Hastanesi )", "Iç Hastaliklari (Ana Brans)(  Ibni Sina Hastanesi )", "Kadin Hastaliklari ve Dogum (Ana Brans)( Cebeci )", "Kalp ve Damar Cerrahisi (Ana Brans)( Cebeci )", "Kardiyoloji (Ana Brans)(  Ibni Sina Hastanesi )", "Kardiyoloji (Ana Brans)( Cebeci )", "Kulak-Burun-Bogaz Hastaliklari(  Ibni Sina Hastanesi )", "Kulak-Burun-Bogaz Hastaliklari( Cebeci )", "Nöroloji(  Ibni Sina Hastanesi )", "Ortopedi ve Travmatoloji(  Ibni Sina Hastanesi )", "Plastik, Rekonstrüktif ve Estetik Cerrahi (Ana Brans)( Cebeci )", "Psikiyatri( Cebeci )", "Üroloji -> Çocuk Ürolojisi( Cebeci )"]
+}

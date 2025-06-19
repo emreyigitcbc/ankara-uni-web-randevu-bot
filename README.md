@@ -1,4 +1,5 @@
-
+# Dikkat!
+- Bu bot artık çalışmamaktadır, yeni randevu sistemi ile uyumlu değildir ve bu repo arşivlenmiştir.
 
 ## Ankara Üniversitesi Tıp Fakültesi Hastaneleri Otomatik Web Randevu Botu
 - Bu bot Ankara Üniversitesi'nin hiçbir API veya açığını kullanmaz. Her şey Node.JS modulü olan `puppeteer` kullanılarak randevu alınmaya çalışılır. Normal bir insan nasıl randevu alıyorsa bu bot da aynı şekilde randevu almaya çalışmaktadır.
